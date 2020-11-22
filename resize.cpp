@@ -4,7 +4,7 @@
 
 char* resize(char* str, unsigned size, unsigned new_size)
 {
-  assert(new_size != 0);
+  assert(new_size != NULL);
   if (new_size < size)
     return nullptr;
   char* new_str = new char[new_size];
