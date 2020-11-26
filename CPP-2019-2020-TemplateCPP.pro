@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        StringTask.cpp \
         main.cpp
+
+HEADERS += \
+    StringTask.h

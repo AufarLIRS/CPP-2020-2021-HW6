@@ -1,9 +1,14 @@
 #include <iostream>
+#include <StringTask.h>
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
-    return 0;
+    char to[] = "where";
+    char from[] = "wlr";
+
+    strcat(to, from);
+    std::cout << to << std::endl;
+
 }
