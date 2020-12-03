@@ -10,6 +10,7 @@ void strcat(char *to, const char *from)
     do {
         *to = *from; // сцепляем строки
     } while(++to, *from++ != 0); // пока не достигнем конца
+    *to = 0;
 }
 
 char *resize(const char *str, unsigned size, unsigned newSize)
