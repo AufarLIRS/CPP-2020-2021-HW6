@@ -21,7 +21,7 @@ char* resize(char* str, unsigned size, unsigned new_size)
     unsigned i = 0;
 
     if (new_size < size)
-        return (0);
+        return (nullptr);
     pointer = new char[new_size];
     while (i < size)
     {
